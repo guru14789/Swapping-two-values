@@ -22,12 +22,17 @@ End the program
 #Program to swap two values.
 #Developed by:SREEKUMAR S
 #RegisterNumber:23008070
-a,b=(float(input()),float(input()))
-a,b=b,a
-print("Swapped values are:",a,b)
+a=input()
+b=input()
+c=a
+a=b
+b=c
+print("Swapped values are:",a,b);
 ```
 ## OUTPUT:
-![Alt text](<output swap.png>)
+![swap](https://github.com/guru14789/Swapping-two-values/assets/151705853/02b1ccef-fa89-41a4-a851-c9dc62b670af)
+
+
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
